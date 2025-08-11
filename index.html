@@ -1,13 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Travel Service</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    
 </head>
 <body>
-    <script src="js/app.js" defer></script>
+    <header class="hero-section">
+        <div class="hero-overlay">
+            <nav class="navbar">
+                <div class="logo">Aerovia</div>
+                <ul class="nav-links">
+                    <li><a href="#"><i class="fa-solid fa-house-chimney"></i> Home</a></li>
+                    <li><a href="#"><i class="fa-solid fa-plane-departure"></i> Transport</a></li>
+                    <li><a href="hotel.html"><i class="fa-solid fa-hotel"></i> Hotels</a></li>
+                    <li><a href="#"><i class="fa-solid fa-hand-holding-heart"></i> Package</a></li>
+                    <li><a href="#"><i class="fa-solid fa-envelopes-bulk"></i> Offer</a></li>
+                    <li><a href="#"><i class="fa-solid fa-phone"></i> Contact</a></li>
+                </ul>
+                <div class="login">
+                    <a href="#">Login</a>
+                </div>
+            </nav>
+            <div class="hero-content">
+                <h1>Explore the World with Us</h1>
+                <p>Your adventure starts here. Discover amazing places at exclusive prices.</p>
+                <a href="#" class="btn-primary">Book Now</a>
+            </div>
+        </div>
+        <div class="image-options">
+            <div class="image-option">
+                <img src="images/travel/beach 2.jpg" alt="Beach" />
+                <div class="image-caption">Beach</div>
+            </div>
+            <div class="image-option">
+                <img src="images/travel/mountain.jpg" alt="Mountain" />
+                <div class="image-caption">Mountain</div>
+            </div>
+            <div class="image-option">
+                <img src="images/travel/monument.jpg" alt="Monuments" />
+                <div class="image-caption">Monument</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Tour Package Section -->
+    <div class="tour-section">
+      <!-- Left Image -->
+      <div class="tour-image"></div>
+
+      <!-- Right Content -->
+      <div class="tour-content">
+        <h4>ABOUT US</h4>
+        <h2>We Provide Best Tour Packages In Your Budget</h2>
+        <p>
+          Discover amazing places with us. We offer affordable, exciting, and custom travel packages to suit your needs. Let us plan your next adventure!
+        </p>
+
+        <!-- Two Tour Images -->
+        <div class="tour-photos">
+          <img src="images/taj_mahal.webp" alt="Taj Mahal">
+          <img src="images/beach_sunset.avif" alt="Beach Sunset">
+        </div>
+
+        <a href="#" class="book-button">Book Now</a>
+      </div>
+    </div>
+
+    <!--destination-->
+
+    <h2 > Destination </h2>
+    <p class="Destination_heading">Choose Your Destination</p>
+   
+
+    <div class="card-container">
+  <div class="card">
+    <img src="images/popular/popular-1.jpg" alt="Kyoto Temple">
+    <div class="rating">★★★★★</div>
+    <a href="#">
+        <div class="card-info">
+        
+      <small>Italy</small>
+      <h3>San miguel</h3>
+      
+    </div></a>
+  </div>
+    
+    
+
+  <div class="card">
+    <img src="images/popular/popular-2.jpg" alt="Kyoto Temple">
+    <div class="rating">★★★★★</div>
+    <a href="#">
+        <div class="card-info">
+      <small>Dubai</small>
+      <h3>Burj khalifa</h3>
+      
+    </div></a>
+  </div>
+    
+
+  <div class="card">
+    <img src="images/popular/popular-3.jpg" alt="Kyoto Temple">
+    <div class="rating">★★★★★</div>
+    <a href="#"><div class="card-info">
+      <small>JAPAN</small>
+      <h3>Kyoto Temple</h3>
+      
+    </div></a>
+  </div>
+</div>
+<!-- packages -->
+<div>
+  <h2>Packages</h2>
+  <p class="Destination_heading">Perfect Tour Packages</p>
+  <div  class = "packages">
+    <div class="package_view">
+      <img src="images/destination/destination-1.jpg">
+      <div class="package_detail">
+        <p class="location"><i class="fa-solid fa-location-dot"></i>Location</p>
+        <p class="location" ><i class="fa-solid fa-calendar-days"></i>3 Days</p>
+        <p class="location"><i class="fa-solid fa-user"></i>2 persons</p>
+        
+      </div>
+      <p>Beach Destination </p>
+      
+      <div class="details">
+        <p><i class="fa-solid fa-star"></i>4.5(250)</p>
+        <p>₹ 45,999</p>
+      </div>
+    </div>
+    <div class="package_view">
+      <img src="images/destination/destination-2.jpg">
+      <div class="package_detail">
+        <p class="location"><i class="fa-solid fa-location-dot"></i>Location</p>
+        <p class="location" ><i class="fa-solid fa-calendar-days"></i>3 Days</p>
+        <p class="location"><i class="fa-solid fa-user"></i>2 persons</p>
+        
+      </div>
+      <p>Weekend Gateway </p>
+      
+      <div class="details">
+        <p><i class="fa-solid fa-star"></i>4.5(250)</p>
+        <p>₹ 45,999</p>
+      </div>
+    </div>
+    <div class="package_view">
+      <img src="images/destination/destination-3.jpg">
+      <div class="package_detail">
+        <p class="location"><i class="fa-solid fa-location-dot"></i>Location</p>
+        <p class="location" ><i class="fa-solid fa-calendar-days"></i>3 Days</p>
+        <p class="location"><i class="fa-solid fa-user"></i>2 persons</p>
+        
+      </div>
+      <p>Hill Stations </p>
+      
+      <div class="details">
+        <p><i class="fa-solid fa-star"></i>4.5(250)</p>
+        <p>₹ 45,999</p>
+      </div>
+    </div>
+    <div style="flex-basis: 100%; height: 0;"></div>
+    <div class="package_view">
+      <img src="images/destination/destination-4.jpg">
+      <div class="package_detail">
+        <p class="location"><i class="fa-solid fa-location-dot"></i>Location</p>
+        <p class="location" ><i class="fa-solid fa-calendar-days"></i>3 Days</p>
+        <p class="location"><i class="fa-solid fa-user"></i>2 persons</p>
+        
+      </div>
+      <p>Adventure Destination </p>
+      
+      <div class="details">
+        <p><i class="fa-solid fa-star"></i>4.5(250)</p>
+        <p>₹ 45,999</p>
+      </div>
+    </div>
+    <div class="package_view">
+      <img src="images/destination/destination-5.jpg">
+      <div class="package_detail">
+        <p class="location"><i class="fa-solid fa-location-dot"></i>Location</p>
+        <p class="location" ><i class="fa-solid fa-calendar-days"></i>3 Days</p>
+        <p class="location"><i class="fa-solid fa-user"></i>2 persons</p>
+        
+      </div>
+      <p>Heritage Destination </p>
+      
+      <div class="details">
+        <p><i class="fa-solid fa-star"></i>4.5(250)</p>
+        <p>₹ 45,999</p>
+      </div>
+    </div>
+    <div class="package_view">
+      <img src="images/destination/destination-3.jpg">
+      <div class="package_detail">
+        <p class="location"><i class="fa-solid fa-location-dot"></i>Location</p>
+        <p class="location" ><i class="fa-solid fa-calendar-days"></i>3 Days</p>
+        <p class="location"><i class="fa-solid fa-user"></i>2 persons</p>
+        
+      </div>
+      <p>Relaxation Destination </p>
+      
+      <div class="details">
+        <p><i class="fa-solid fa-star"></i>4.5(250)</p>
+        <p>₹ 45,999</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="scroll-bg-section" id="scroll-bg-section">
+  <div class="bg-image-layer"></div>
+  <div class="scroll-bg-content">
+    <h1>Let's Travel And Explore</h2>
+    <p>Discover amazing places at exclusive deal</p>
+  </div>
+</section>
+
+
+<script src="js/app.js"></script>    
 </body>
 </html>
